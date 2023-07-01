@@ -1,0 +1,54 @@
+[Sat Jul 01 11:33:13.353308 2023] [mpm_winnt:notice] [pid 3208:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jul 01 11:33:42.670882 2023] [mpm_winnt:notice] [pid 2720:tid 400] AH00364: Child: All worker threads have exited.
+[Sat Jul 01 11:33:42.717744 2023] [mpm_winnt:notice] [pid 3208:tid 376] AH00430: Parent: Child process 2720 exited successfully.
+[Sat Jul 01 11:33:44.608511 2023] [core:warn] [pid 7472:tid 384] AH00111: Config variable ${SRVROOT} is not defined
+[Sat Jul 01 11:33:44.608511 2023] [core:warn] [pid 7472:tid 384] AH00111: Config variable ${SRVROOT} is not defined
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host2.example.com] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e447:30f8:5d78:2a9d. Set the 'ServerName' directive globally to suppress this message
+[Sat Jul 01 11:33:45.811697 2023] [mpm_winnt:notice] [pid 7472:tid 384] AH00455: Apache/2.4.57 (Win64) PHP/8.1.20 configured -- resuming normal operations
+[Sat Jul 01 11:33:45.811697 2023] [mpm_winnt:notice] [pid 7472:tid 384] AH00456: Apache Lounge VS17 Server built: May 31 2023 10:48:22
+[Sat Jul 01 11:33:45.811697 2023] [core:notice] [pid 7472:tid 384] AH00094: Command line: 'C:\\DapurOperator\\webserver\\bin\\httpd.exe -d C:/DapurOperator/webserver'
+[Sat Jul 01 11:33:45.811697 2023] [mpm_winnt:notice] [pid 7472:tid 384] AH00418: Parent: Created child process 2824
+[Sat Jul 01 11:33:46.124230 2023] [core:warn] [pid 2824:tid 428] AH00111: Config variable ${SRVROOT} is not defined
+[Sat Jul 01 11:33:46.124230 2023] [core:warn] [pid 2824:tid 428] AH00111: Config variable ${SRVROOT} is not defined
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/DapurOperator/webserver/conf/httpd.conf:3
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host2.example.com] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e447:30f8:5d78:2a9d. Set the 'ServerName' directive globally to suppress this message
+[Sat Jul 01 11:33:47.296183 2023] [core:warn] [pid 2824:tid 428] AH00111: Config variable ${SRVROOT} is not defined
+[Sat Jul 01 11:33:47.296183 2023] [core:warn] [pid 2824:tid 428] AH00111: Config variable ${SRVROOT} is not defined
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host2.example.com] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e447:30f8:5d78:2a9d. Set the 'ServerName' directive globally to suppress this message
+[Sat Jul 01 11:33:48.405616 2023] [mpm_winnt:notice] [pid 2824:tid 428] AH00354: Child: Starting 64 worker threads.
+[Sat Jul 01 11:33:52.378712 2023] [autoindex:error] [pid 2824:tid 1308] [client ::1:53213] AH01276: Cannot serve directory C:/DapurOperator/appku/DapurOperator/public/BackUp/: No matching DirectoryIndex (index.html,index.php) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:8686/maintance
+[Sat Jul 01 11:39:10.057168 2023] [mpm_winnt:notice] [pid 7472:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jul 01 11:39:12.060783 2023] [mpm_winnt:notice] [pid 2824:tid 428] AH00364: Child: All worker threads have exited.
+[Sat Jul 01 11:39:12.107254 2023] [mpm_winnt:notice] [pid 7472:tid 384] AH00430: Parent: Child process 2824 exited successfully.
+[Sat Jul 01 11:39:14.451159 2023] [core:warn] [pid 8252:tid 376] AH00111: Config variable ${SRVROOT} is not defined
+[Sat Jul 01 11:39:14.451159 2023] [core:warn] [pid 8252:tid 376] AH00111: Config variable ${SRVROOT} is not defined
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host2.example.com] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e447:30f8:5d78:2a9d. Set the 'ServerName' directive globally to suppress this message
+[Sat Jul 01 11:39:15.357451 2023] [mpm_winnt:notice] [pid 8252:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.1.20 configured -- resuming normal operations
+[Sat Jul 01 11:39:15.357451 2023] [mpm_winnt:notice] [pid 8252:tid 376] AH00456: Apache Lounge VS17 Server built: May 31 2023 10:48:22
+[Sat Jul 01 11:39:15.357451 2023] [core:notice] [pid 8252:tid 376] AH00094: Command line: 'C:\\DapurOperator\\webserver\\bin\\httpd.exe -d C:/DapurOperator/webserver'
+[Sat Jul 01 11:39:15.357451 2023] [mpm_winnt:notice] [pid 8252:tid 376] AH00418: Parent: Created child process 12908
+[Sat Jul 01 11:39:15.685597 2023] [core:warn] [pid 12908:tid 408] AH00111: Config variable ${SRVROOT} is not defined
+[Sat Jul 01 11:39:15.685597 2023] [core:warn] [pid 12908:tid 408] AH00111: Config variable ${SRVROOT} is not defined
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/DapurOperator/webserver/conf/httpd.conf:3
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host2.example.com] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e447:30f8:5d78:2a9d. Set the 'ServerName' directive globally to suppress this message
+[Sat Jul 01 11:39:16.779419 2023] [core:warn] [pid 12908:tid 408] AH00111: Config variable ${SRVROOT} is not defined
+[Sat Jul 01 11:39:16.779419 2023] [core:warn] [pid 12908:tid 408] AH00111: Config variable ${SRVROOT} is not defined
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/DapurOperator/webserver/${SRVROOT}/docs/dummy-host2.example.com] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e447:30f8:5d78:2a9d. Set the 'ServerName' directive globally to suppress this message
+[Sat Jul 01 11:39:18.326395 2023] [mpm_winnt:notice] [pid 12908:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Jul 01 11:39:37.344453 2023] [autoindex:error] [pid 12908:tid 1308] [client ::1:53537] AH01276: Cannot serve directory C:/DapurOperator/appku/DapurOperator/public/BackUp/: No matching DirectoryIndex (index.html,index.php) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:8686/maintance
+[Sat Jul 01 11:39:38.605697 2023] [autoindex:error] [pid 12908:tid 1308] [client ::1:53537] AH01276: Cannot serve directory C:/DapurOperator/appku/DapurOperator/public/BackUp/: No matching DirectoryIndex (index.html,index.php) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:8686/maintance
+[Sat Jul 01 12:17:51.499379 2023] [mpm_winnt:notice] [pid 8252:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jul 01 12:17:53.517246 2023] [mpm_winnt:notice] [pid 12908:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Jul 01 12:17:53.564108 2023] [mpm_winnt:notice] [pid 8252:tid 376] AH00430: Parent: Child process 12908 exited successfully.
